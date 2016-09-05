@@ -1,0 +1,381 @@
+html,body,ol,ul,li{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline
+
+}
+ body{
+    background-color:#333;
+ }
+
+ol,ul {
+    list-style: none
+}
+
+input[type="radio"]+label {
+    display: block;
+    width: 13px;
+    height: 12px;
+   
+
+}
+
+
+.topnav-menu li a {
+    font-family: LeagueGothicRegular,Helvetica,Arial,sans-serif;
+    font-size: 19px;
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-transform: uppercase
+}
+
+.topnav-menu li a:hover,.topnav-menu li a.current {
+    background: #fff; /*cor menu branco */
+    color: #000 ; /*cor menu preto */
+}
+
+
+.container {
+    width: 840px; /* afasta o menu da img-logo*/
+    margin: 0 auto;
+    display: block
+}
+
+.header{
+    overflow:visible;
+}
+#header {
+    background-color: #000;
+    display: block;
+    width: 100%;
+    min-width: 1000px;
+    height: 65px;
+    top: 0;
+    z-index: 222
+}
+
+#topnav {
+    height: 65px ;/* colocar carrossel para cima ou p/ baixo */
+}
+
+#login { /*altera formatação do login */
+    display: none;
+    height: 38px;
+    background: #000
+}
+
+
+.logo {
+    position:absolute;
+    display: inline-block;
+    top: 10px;
+    left: 0px;
+    font-size: 18px;
+    z-index: 1
+    width:10px;
+
+   
+}
+
+.topnav-menu {
+    width: 925px;
+    height: 65px;
+    line-height: 65px;
+    margin-left: 75px;
+    overflow: hidden
+}
+
+.topnav-menu li {
+    float: left;
+    height: 65px
+}
+
+.topnav-menu .li-location {
+    float: right;
+    margin-right: 0;
+    width: 288px;
+    text-align: center
+}
+
+.topnav-menu li a {
+    font-weight: normal;
+    display: block;
+    height: 65px;
+    padding: 0 15px
+}
+
+.topnav-menu li.li-location a {
+    letter-spacing: 2px
+}
+
+
+.topnav-menu li.li-location a.current:hover,.topnav-menu li.li-location a.select-other:hover {
+    background: none;
+    color: #47fce5
+}
+
+.topnav-menu li.li-location a.current {
+    margin: 12px 0 5px;
+    background: none;
+    color: #fff
+}
+
+.topnav-menu li.li-location a.active {
+    margin-top: 24px
+}
+
+.topnav-menu li a.select-other {
+    text-transform: none;
+    font-family: Georgia,'Times New Roman',Times,serif;
+    font-size: 12px;
+    font-style: italic;
+    letter-spacing: 0
+}
+
+
+.topnav-menu li a.location-button {
+    overflow: hidden;
+    white-space: nowrap;
+    border: 0
+}
+
+.topnav-menu li.home-location a {
+    display: block;
+    min-width: 25px;
+    width: 25px;
+    padding: 0
+}
+
+
+.topnav-menu .icons {
+    display: block;
+    width: 22px
+}
+
+
+
+#toolbar {
+    background: url("../img/div.png") repeat 0 0 transparent;
+    position: absolute; /*colocar div fixa*/
+    display: block;
+    width: 100%;
+    height: 38px;
+    top: 65px;
+    z-index: 3;
+     
+
+
+}
+
+#toolbar .container {
+    height: 38px;
+    position: relative
+}
+
+#search-bar {
+    float: left;
+    height: 28px;
+    padding: 5px 0;
+    overflow: hidden
+}
+
+#search-bar input[type=text] {
+    float: left;
+    border: 0;
+    padding: 6px 10px;
+    font-family: Georgia;
+    font-style: italic;
+    margin: 0 0 0 90px
+}
+
+#search-bar input[type=image] {
+    display: inline-block;
+    width: 26px;
+    height: 27px;
+    vertical-align: top;
+    
+}
+
+#toolbar-menu {
+    display: block;
+    float: right;
+    font-family: LeagueGothicRegular,Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    height: 22px;
+    right: 40px;
+    text-transform: uppercase;
+    height: 38px;
+    margin-right: 0;
+    overflow: hidden;
+    max-width: 645px
+}
+
+#toolbar-menu li {
+    float: left;
+    white-space: nowrap
+}
+
+#toolbar-menu a {
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    width: 155px;
+    line-height: 38px;
+    background: #000;
+    text-align: center
+}
+
+#toolbar-menu.usuario-logado a {
+    width: 144px
+}
+
+#toolbar-menu .login a {
+    background: #47fce5;
+    color: #000
+}
+
+#toolbar-menu .profile-img {
+    display: block;
+    float: left;
+    width: 38px;
+    height: 38px;
+    margin-right: 5px
+}
+
+#toolbar-menu .home-button,#toolbar-menu .profile-button {
+    border-right: 1px solid #b1b1b1
+}
+
+#toolbar-menu .home-button {
+    padding: 0;
+    height: 38px;
+    line-height: 38px
+}
+
+#toolbar-menu .home-button a {
+    position: relative;
+    display: block;
+    width: 44px;
+    height: 38px
+}
+
+#toolbar-menu .home-button .icon {
+    position: absolute;
+    display: block;
+    width: 18px;
+    height: 15px;
+    top: 50%;
+    left: 50%;
+    margin: -7px 0 0 -9px
+}
+
+#toolbar-menu .profile-button {
+    overflow: hidden;
+    max-width: 710px
+}
+
+#toolbar-menu .profile-button a {
+    float: right;
+    max-width: 705px
+}
+
+
+.tamanhoimg{
+
+  height:230px; 
+  width:320px;
+}
+
+#imgposicao1 {
+    position: relative;
+    left:0px; /* posiciona a 90px para a esquerda */ 
+    top:5px; /* posiciona a 70px para baixo */
+
+    }
+    #imgposicao2 {
+    position: relative;
+    left: 50px; /* posiciona a 90px para a esquerda */ 
+    top:5px; /* posiciona a 70px para baixo */
+
+    }
+    #imgposicao3 {
+    position: relative; 
+    left:100px; /* posiciona a 90px para a esquerda */ 
+    top: 5px; /* posiciona a 70px para baixo */
+
+    }
+     .imgposicao:hover {
+        zoom:110%;
+     }
+
+     #rodape {
+    background-color: #000;
+    display: block;
+    width: 100%;
+    min-width: 1000px;
+    height: 100px;
+    margin-top:100px; 
+     float:left;
+
+}
+
+
+    /*#rodape{
+width: 100%;
+height: auto !important;
+position: absolute;
+clear: both;
+bottom: 0 !important;
+padding-bottom: 5px;
+background: #357531;
+
+} */
+
+.divmeio{
+ height:80px;
+
+}
+.horario{
+    background-color: #fff;
+    margin-top:5%;
+    height:600px;
+    width:1000px;
+    font-family: Helvetica,Arial,sans-serif;
+  font-size:20px;
+
+}
+  
+table.atividade td ,th{
+    font-size: 22px ;
+   margin-top:5%;
+   height:60px;
+    
+}
+.ativi{
+    margin-top:5%;
+}
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+

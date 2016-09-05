@@ -1,0 +1,236 @@
+#margimformadm{
+	margin-top: 1000px;
+	text-align: center;
+}
+.bordaefundo{
+	background-color: white; /*cor de fundo branco*/
+	max-width: 500px; /*largura do login*/
+	margin: 0 auto; /*deixar login centralizado*/
+	position:relative;
+	padding-bottom: 50px;
+	border-radius: 5px;
+	
+	text-align: right;
+
+}
+
+
+
+#margimformadm label {
+	font-weight: 700;
+	font-size: .8em;
+	color: #000; /*cor senha e nome*/
+	letter-spacing: 7px; /*afastamento do nome l o g i n*/
+	text-align: right;
+	line-height: 2em;
+}
+
+#margimformadm input { 
+	margin-bottom: 20px;
+	padding: 66px;
+	border: 100px solid #ccc; /* cor da borda de escrever nome e senha*/
+	border-radius: 2px;
+	font-size: .9em;
+	color: #000;
+	text-align: right;
+}
+
+#margimformadm input:focus { /*focus* passar o mause trocar a cor para preto*/
+	outline: none;
+	border-color: #000;
+	transition: 0.5s;
+	color: #000;
+	text-align: right;
+}
+
+#margimformadm .Enviar { /*botão entrar*/
+	margin-top: 0px;
+	border: 0;
+	border-radius: 2px;
+	color: white;
+	padding: 10px;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 0.7em;
+	letter-spacing: 1px;
+	background-color: #000;
+	cursor:pointer;
+	outline: none;
+
+}
+
+.Enviar :hover {
+	opacity: 0.7;
+	transition: 0.5s;
+}
+
+.Enviar:hover {
+	opacity: 0.7;
+	transition: 0.5s;
+}
+
+.bordaefundo{
+  border: 0;
+}
+
+.texte{
+
+	font-size: 25px;
+
+	}
+
+h1#title { /* css do nome Toguro*/
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  font-size: 40px;
+  color: #000000;
+  margin: 0 auto; /*margem do nome toguro*/
+  padding-top: 100px;
+  max-width: 300px;
+  text-align: center;
+  position: relative;
+
+
+
+}
+
+        #divUsu { /*pagina do usuario,index e funcionario*/
+ 
+        width:500px; /* Tamanho da Largura da Div */
+    height:200px; /* Tamanho da Altura da Div */
+        position:absolute; 
+        top:50%; 
+        margin-top:-100px; /* ou seja ele pega 50% da altura tela e sobe metade do valor da altura no caso 100 */
+        left:50%;
+       margin-left:-250px; /* ou seja ele pega 50% da largura tela e diminui  metade do valor da largura no caso 250 */
+    background-color:#Fff;
+}
+#footer { /* modalidade E professor index*/
+position: fixed;
+
+   top: 50px;
+
+   width: 50px;
+
+   z-index: 400;
+
+   right: 0pt;
+}
+
+
+	 /*CLASSE*/
+
+
+	.margimformadm{
+	margin-top: 150px;
+	text-align: center;
+}
+
+
+
+.margimformadm label {
+	font-weight: 700;
+	font-size: .8em;
+	color: #000; /*cor senha e nome*/
+	letter-spacing: 1px; /*afastamento do nome l o g i n*/
+	text-transform: uppercase;
+	line-height: 2em;
+}
+
+.margimformadm input { 
+	margin-bottom: 20px;
+	padding: 8px;
+	border: 1px solid #ccc; /* cor da borda de escrever nome e senha*/
+	border-radius: 2px;
+	font-size: .9em;
+	color: #000;
+}
+
+.margimformadm input:focus { /*focus* passar o mause trocar a cor para preto*/
+	outline: none;
+	border-color: #000;
+	transition: 0.5s;
+	color: #000;
+}
+
+.margimformadm .Enviar { /*botão entrar*/
+	margin-top: 0px;
+	border: 0;
+	border-radius: 2px;
+	color: white;
+	padding: 10px;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 0.7em;
+	letter-spacing: 1px;
+	background-color: #000;
+	cursor:pointer;
+	outline: none;
+}
+
+#altura1{ /* aqui altera a altura da  borda de cadastro do professor */
+ height:700px;
+}
+
+#altura2{ /* aqui altera a altura da  borda de cadastro do usuario */
+	 height:900px;
+}
+#altura3{
+	 height:400px;
+}
+
+
+
+
+
+
+
+/* BASE/RODAPE */
+
+html,body,ol,ul,li{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline
+
+}
+ body{
+    background-color:#333;
+ }
+
+#header {
+    background-color: #000;
+    display: block;
+    width: 100%;
+    min-width: 1000px;
+    height: 65px;
+    top: 0;
+    z-index: 222
+}
+
+#toolbar {
+    background: url("../img/div.png") repeat 0 0 transparent;
+    position: absolute; /*colocar div fixa*/
+    display: block;
+    width: 100%;
+    height: 38px;
+    top: 65px;
+    z-index: 3;
+}
+
+#toolbar .container {
+    height: 38px;
+    position: relative
+}
+
+#rodape {
+    background-color: #000;
+    display: block;
+    width: 100%;
+    min-width: 1000px;
+    height: 65px;
+    margin-top:100px; 
+     float:left;

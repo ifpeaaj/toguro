@@ -1,0 +1,103 @@
+
+
+h1#title { /* css do nome Toguro*/
+	font-family: 'Roboto Slab', serif;
+	font-weight: 300;
+	font-size: 3.2em;
+	color: #000000;
+	margin: 0 auto; /*margem do nome toguro*/
+	padding-top: 100px;
+	max-width: 300px;
+	text-align: center;
+	position: relative;
+
+
+}
+
+h2 {/* css do nome Login*/
+	text-transform: uppercase;
+	color: white;
+	font-weight: 400;
+	letter-spacing: 1px;
+	font-size: 1.4em;
+	line-height: 2.8em;
+}
+
+a { /*esqueceu sua senha*/
+	text-decoration: none;
+	color: #666; 
+} 
+
+.Estruturadologin { /*alteração do login*/
+	background-color: white; /*cor de fundo branco*/
+	max-width: 340px; /*largura do login*/
+	margin: 0 auto; /*deixar login centralizado*/
+	position:relative;
+	top: 0px;
+	padding-bottom: 30px;
+	border-radius: 5px;
+	text-align: center;
+}
+
+ .divlogin { /* css parte preta */
+	background-color: #000; /* cor da div login*/
+	margin-top: 0;
+	border-radius: 5px 5px 0 0;
+}
+
+.Estruturadologin label {
+	font-weight: 700;
+	font-size: .8em;
+	color: #000; /*cor senha e nome*/
+	letter-spacing: 1px; /*afastamento do nome l o g i n*/
+	text-transform: uppercase;
+	line-height: 2em;
+}
+
+.Estruturadologin input { 
+	margin-bottom: 20px;
+	padding: 8px;
+	border: 1px solid #ccc; /* cor da borda de escrever nome e senha*/
+	border-radius: 2px;
+	font-size: .9em;
+	color: #000;
+}
+
+.Estruturadologin input:focus { /*focus* passar o mause trocar a cor para preto*/
+	outline: none;
+	border-color: #000;
+	transition: 0.5s;
+	color: #000;
+}
+
+.Estruturadologin button { /*botão entrar*/
+	margin-top: 0px;
+	border: 0;
+	border-radius: 2px;
+	color: white;
+	padding: 10px;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 0.7em;
+	letter-spacing: 1px;
+	background-color: #000;
+	cursor:pointer;
+	outline: none;
+}
+
+.Estruturadologin button:hover {
+	opacity: 0.7;
+	transition: 0.5s;
+}
+
+.Estruturadologin button:hover {
+	opacity: 0.7;
+	transition: 0.5s;
+}
+
+.selected {
+	color: #665851!important;
+	transition: 0.5s;
+}
+
+
