@@ -1,4 +1,22 @@
 <?php
+
+
+
+
+session_start(); 
+
+if ($_SESSION["status"] == '' or $_SESSION["tipo"] == 'A' or $_SESSION["tipo"] == 'U'  ) {
+	
+	 header('Location: ../index.html'); 
+	 
+ } 
+
+
+
+
+
+
+
 echo "<meta charset = 'UTF-8'>"; 
 
 include '../../adm/conexao/conexao.php';

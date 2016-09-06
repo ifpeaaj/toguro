@@ -7,7 +7,7 @@
 		  <title>Home</title>
 		  <meta charset="utf-8">
 		  <link rel="stylesheet" type="text/css" href="../css/geral.css"/> 
-
+<script type="text/javascript" src="../js/MascaraValidacao.js"></script>
       <!-- Google Fonts -->
       <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700|Lato:400,100,300,700,900' rel='stylesheet' type='text/css'>
 
@@ -57,7 +57,7 @@
           <form  method="post" action="sessaodoform.php"> 
             <label for="nome">CPF</label>
               <br/>
-            <input type="text"  required name="cpf_usuario" type="text" autocapitalize="off" autocorrect="off">
+            <input type="text"  required name="cpf_usuario" id="cpf_usuario" required="" type="text" autocapitalize="off" autocorrect="off" class="form-control cpf-mask" placeholder="Ex.: 000.000.000-00" maxlength="14" onKeyPress="MascaraCPF(form1.cpf_usuario);">
               <br/>
             <label for="senha">Senha</label>
               <br/>
@@ -66,7 +66,7 @@
             <button type="submit">Entrar</button>
               <br/>
          
-          </form>
+          </form> 
         </div>
       </div>
 
